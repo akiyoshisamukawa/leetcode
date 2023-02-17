@@ -13,9 +13,8 @@ class Solution {
             else -> {
                 var i = 1
                 var j = 2
-                var k = 0
                 (3 .. n).forEach {
-                    k = j
+                    val k = j
                     j = i + j
                     i = k
                 }
