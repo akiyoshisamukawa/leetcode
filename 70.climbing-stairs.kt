@@ -8,7 +8,7 @@
 class Solution {
     fun climbStairs(n: Int): Int {
         when (n) {
-            0,1 -> return 1
+            1 -> return 1
             2 -> return 2
             else -> {
                 var i = 1
